@@ -1,0 +1,11 @@
+
+THE PROJECT OUTLIERS
+
+•	the project starts from scraping data of products from the Amazon BLACK FRIDAY campaign, it scraps data from the website, it scraps the product title, price, discount, rating and description
+•	any product having more than 0 rating will get its reviews scraped and then indexed according to the index of the products dataset
+•	this data is going to be preprocessed, the reviews data will be cleaned, and there will be new features extracted from the description column
+•	the reviews data will be cleaned by tokenizing, removing stop words, stemming and then removing the null values
+•	reviews data will go through sentiment analysis where we’ll know which comment is either positive, negative or neutral
+•	word cloud approach will be applied on that data so we’ll know which word has the highest impact on that dataset
+•	feature extraction will be applied to, it refers to the process of converting raw text data into a format that can be used for machine learning. Text data is inherently unstructured, and machine learning models require structured input. Feature extraction involves selecting and transforming relevant information from the raw text into a set of numerical features that can be used as input for a machine learning algorithm.
+•	Then topic modelling by LDA, it’s used to automatically identify topics present in a text corpus. The goal of topic modeling is to discover hidden thematic structures in a large collection of documents. This can be particularly useful for organizing, understanding, and summarizing vast amounts of textual data.
